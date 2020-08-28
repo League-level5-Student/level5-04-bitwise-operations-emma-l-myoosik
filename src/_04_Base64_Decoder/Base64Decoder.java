@@ -75,7 +75,6 @@ public class Base64Decoder {
 				bytes[counter + j] = bytes1[j];
 			}
 			counter += 3;
-			
 		}
 		return bytes;
 	}
